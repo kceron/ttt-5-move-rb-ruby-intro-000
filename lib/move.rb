@@ -9,7 +9,7 @@ end
 # code your input_to_index and move method here!
 
 puts "Welcome to Tic Tac Toe! Please select a square by entering 1-9, 1 for the top left and 9 for the bottom right:"
-user_input = gets.strip.to_i
+user_input = gets.to_i
 def input_to_index(user_input)
   
 end
