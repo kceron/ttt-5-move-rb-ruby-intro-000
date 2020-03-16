@@ -10,8 +10,9 @@ end
 
 puts "Welcome to Tic Tac Toe! Please select a square by entering 1-9, 1 for the top left and 9 for the bottom right:"
 def input_to_index(user_input)
-  user_input = gets.to_i
-  
+  new_user_input = user_input.to_i
+  new_user_input -= 1
+  return new_user_input
 end
 
 def move(board_array, index_array, character="X")
