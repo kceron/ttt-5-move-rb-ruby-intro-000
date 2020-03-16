@@ -16,6 +16,6 @@ def input_to_index(user_input)
 end
 
 def move(board_array, index_array, character = "X")
-  board[index] = character
-  return board
+  board_array[index_array] = character
+  return board_array
 end
